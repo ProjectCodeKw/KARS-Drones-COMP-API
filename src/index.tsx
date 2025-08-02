@@ -1,9 +1,7 @@
 import { serve } from "bun";
-import { config } from "dotenv";
 import { readFileSync, writeFileSync } from "fs";
 import index from "./index.html";
 
-config();
 let CURRENT_ROUND = "round1";
 
 const loadData = () => JSON.parse(readFileSync("./src/data.json", "utf-8"));

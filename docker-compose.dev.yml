@@ -7,8 +7,9 @@ services:
     env_file:
       - .env
     environment:
-      - NODE_ENV=production
+      - NODE_ENV=development
     volumes:
-      # For development, you can uncomment the next line to enable hot reload
-      # - .:/app
+      - .:/app
+      - /app/node_modules
+    command: bun --hot src/index.tsx
     restart: unless-stopped
