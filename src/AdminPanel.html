@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/AdminPanel.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="min-h-screen bg-gray-100 flex flex-col items-center justify-center px-4 py-8"
+  >
+    <!-- Current Round Display -->
+    <div
+      class="bg-blue-100 border border-blue-400 text-blue-700 px-4 py-3 rounded mb-4 text-center"
+    >
+      <strong
+        >Current Round:
+        <!--CURRENT_ROUND--></strong
+      >
+    </div>
+
+    <!-- Change Round Form -->
+    <form
+      method="POST"
+      action="/change-round"
+      class="bg-yellow-50 border border-yellow-200 p-4 rounded shadow-md space-y-3 w-full max-w-md mb-6"
+    >
+      <h2 class="text-lg font-semibold text-yellow-800">
+        Change Current Round
+      </h2>
+      <input
+        type="password"
+        name="pass"
+        placeholder="Admin password"
+        class="w-full p-2 border rounded"
+        required
+      />
+      <input
+        type="text"
+        name="round"
+        placeholder="New round (e.g. round2)"
+        class="w-full p-2 border rounded"
+        required
+      />
+      <button
+        type="submit"
+        class="bg-yellow-600 text-white px-4 py-2 rounded hover:bg-yellow-700 w-full"
+      >
+        Change Round
+      </button>
+    </form>
+
+    <!-- Add/Update Data Form -->
+    <form
+      method="POST"
+      action="/admin"
+      class="bg-white p-6 rounded shadow-md space-y-4 w-full max-w-md"
+    >
+      <h1 class="text-xl font-bold">Admin Panel - Add/Update Data</h1>
+      <input
+        type="password"
+        name="pass"
+        placeholder="Admin password"
+        class="w-full p-2 border rounded"
+        required
+      />
+      <input
+        type="text"
+        name="round"
+        placeholder="Round (e.g. round1) - leave empty for current"
+        class="w-full p-2 border rounded"
+      />
+      <input
+        type="text"
+        name="key"
+        placeholder="Key (e.g. key1)"
+        class="w-full p-2 border rounded"
+      />
+      <input
+        type="text"
+        name="value"
+        placeholder="Value"
+        class="w-full p-2 border rounded"
+      />
+      <button
+        type="submit"
+        class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full"
+      >
+        Submit
+      </button>
+    </form>
+    <div class="w-full max-w-4xl mt-8">
+      <!--TABLE-->
+    </div>
+  </body>
+</html>

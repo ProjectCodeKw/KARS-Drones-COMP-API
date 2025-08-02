@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  bun-app:
+    image: oven/bun:latest
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: bun run src/index.tsx
+    ports:
+      - "3002:3002"
+    env_file:
+      - .env
