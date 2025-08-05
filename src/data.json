@@ -3,13 +3,21 @@
     "1": "43"
   },
   "round1": {
-    "key1": "value1",
-    "key2": "value2",
-    "key3": "value3"
+    "sukar": "team1: gre1n || team2: GO AWAY || team3: b1ue || team4: r1d",
+    "popsicle": "team1: lol || team2: y2llow || team3: y2llow || team4: bl2u",
+    "zoo": "team1: gre3n || team2: r3d || team3: nothing to see here || team4: yell3w",
+    "lulu": "team1: r2d || team2: r1d || team3: r3d || team4: on your way shoo",
   },
   "round2": {
-    "key1": "valueA",
-    "key2": "valueB",
-    "key3": "valueC"
+    "sukar": "team1: red is first || team2: DONT TRUST MAX RED is first! || team3: MAX told me yellow is the second color || team4: MAX is A LIAR!! LISTEN TO ME",
+    "popsicle": "team1: DONT TRUST MAX he switched the order! || team2:  MAX: blue is first, i got you choom || team3: red is first! || team4: MAX: i am certain the second step is BLUE! cant be third i wont allow it ",
+    "zoo": "team1: MAX: after red comes blue then yellow trust me lil bro :> || team2: yellow always come after blue || team3: if red is first then blue is last if not.. then green is last.. i think || team4: whatever red is always last ;( ",
+    "lulu": "team1: time wasted HAHA || team2: Alas, red is the finish line || team3: nothing to see here.. all i can say is i dont trust that MAX guy || team4: GREEN always go GREEN first!! dont listen to the voices!"
+  },
+    "round3": {
+    "sukar": "team1: The world was not prepared for the masterpiece: Shrek 2|| team2: Agonised by my hunger, i took 'unripe' few || team3: Its skin was 'gold' || team4: Wishing it was 'sunny' not gloom",
+    "popsicle": "team1: ... || team2:  In a field where only 'tomatoes' grew || team3: I reached for one amongs a sea of red || team4: Beneath the sky so vast and blue, ",
+    "zoo": "team1: Roses are || team2: Little did i know the bitterness made me blue || team3: In an orchard full of 'Honeycrisps' || team4: ... ",
+    "lulu": "team1:  Violets are || team2: ... || team3: ... || team4: I glanced my 'depressed' hue, ",
   }
 }
